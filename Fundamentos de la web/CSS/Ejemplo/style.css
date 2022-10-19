@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 0, 157);
+}
+
+h1 {
+    color: rgb(9, 255, 62);
+    font-size: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 80px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+} 
+h1 {
+    color: rgb(9, 250, 69);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    text-align: left;
+    font-size: 50px;
+}
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+
+}
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* No te preocupes por saber cuáles son todas estas propiedades todavía */
+/* volveremos a ellas más tarde, ¡lo prometemos! */
+
