@@ -1,10 +1,21 @@
-function message() {
-    // podemos incluir más código aquí si queremos
-    console.log("este mensaje proviene de script.js");
+    function message() {
+        console.log("este mensaje proviene de script.js");
+    }
+    function hide(element) {
+        element.remove();
+    }
+    function turnLogout(element) {
+
+
+    
+        if(element.innerText=="Login"){ 
+
+            element.innerText = "Logout";
+        }
+        else
+        {    
+            element.innerText = "Login";
+       }
+
 }
-function hide(element) {
-    element.remove();
-}
-function turnOff(element) {
-    element.innerText = "logout";
-}
+
